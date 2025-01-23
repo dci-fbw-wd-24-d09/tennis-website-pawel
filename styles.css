@@ -1,17 +1,86 @@
-body {
-    background: src="/home/dci-student/Schreibtisch/DCI/tennis-website/tennis-5018589_1280.jpg";
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 1000px;
-    padding: 0;
-    max-width: 100%;
-    width: 100%;
-    margin: 0;
-    }
-header {
-  height: 150px;
+* {
+  scroll-behavior: smooth;
 }
+body {
+  background: url("https://github.com/dci-fbw-wd-24-d09/tennis-website-pawel/blob/main/tennis-5018589_1280.jpg?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  }
+header {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+}
+nav {
+  width: 40%;
+  max-width: 2000px;
+  height: 50px;
+  backdrop-filter: blur(13px) brightness(60%);
+    border-radius: 50px 50px 50px 50px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  
+}
+  
+
 .green {
-  color: green;
+color: #BFE866;
+}
+
+.logo-picture {
+width: 125px;
+height: auto;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  
+  color: #BFE866;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  color: #f3f0e9;
+  font-size: 80px;
+  line-height: 78px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+main {
+padding-top: 300px;
+max-width: 25%;
+padding-left: 15%;
 }
