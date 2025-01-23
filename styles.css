@@ -1,0 +1,17 @@
+body {
+    background: src="/home/dci-student/Schreibtisch/DCI/tennis-website/tennis-5018589_1280.jpg";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    }
+header {
+  height: 150px;
+}
+.green {
+  color: green;
+}
