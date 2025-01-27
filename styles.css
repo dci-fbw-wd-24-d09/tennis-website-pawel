@@ -39,8 +39,11 @@ color: #BFE866;
 }
 
 .logo-picture {
-width: 125px;
-height: auto;
+padding-left: 300px;
+}
+
+.logo-main {
+ 
 }
 
 nav > ul {
@@ -75,10 +78,24 @@ li > a {
 h1 {
   color: #f3f0e9;
   font-size: 80px;
+  font-family: "Reddit Sans";
   line-height: 78px;
   font-weight: 700;
   letter-spacing: -3px;
+  margin-top: 0;
 }
+
+p {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Reddit Sans";
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 main {
 padding-top: 300px;
 max-width: 25%;
